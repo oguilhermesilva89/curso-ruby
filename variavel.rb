@@ -1,0 +1,1 @@
+# Variáveis e versões do Ruby
