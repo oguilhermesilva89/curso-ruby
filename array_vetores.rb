@@ -13,6 +13,7 @@ v1.push(4)
 v1.push('Gui')
 v1.push('Davi')
 v1.push(7)
+v1.delete('Davi')
 
 v1.each do |elem|
     puts elem
