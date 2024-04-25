@@ -1,0 +1,21 @@
+Os 4 Pilares da Orientação a Objetos:
+1 - Abstração
+2 - Encapsulamento
+3 - Herança
+4 - Polimorfismo
+
+Abstração:
+* Imaginas o objeto
+  - Identidade única
+  - Atributos (caracteristicas)
+  - Métodos (Ações)
+  
+ Encapsulamento:
+ * Esconder as propriedades dos objetos para obter mais segurança.
+ 
+ Herança:
+ * Permite o reúso de código.
+ 
+ Polimorfismo:
+ * É a capacidade de referenciar um objeto de várias formas diferentes.
+
