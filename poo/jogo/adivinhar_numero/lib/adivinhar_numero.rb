@@ -1,26 +1,18 @@
 # Joguinho - Adivinhando número
+require_relative 'inicializacao'
+require_relative 'sortear_numero'
 
 class AdivinharNumero
     attr_reader :numero
     attr_reader :venceu
 
     def initialize
-        inicializando
-        @numero = Random.rand(1..10)
+        Inicializacao.inicializando
+        @numero = SortearNumero.sortear #Random.rand(1..10)
         @venceu = false
     end
 
-    def inicializando
-        print "Inicializando."
-        sleep 1
-        print "."
-        sleep 1
-        print "."
-        sleep 1
-        print "."
-        sleep 1
-        puts "."
-    end
+
     def tentar_adivinhar(numero = 0)
         if numero == @numero
             @venceu = true
