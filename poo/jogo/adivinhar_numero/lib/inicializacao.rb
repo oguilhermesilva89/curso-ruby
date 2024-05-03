@@ -1,4 +1,6 @@
 class Inicializacao
+    system('clear')
+
     def self.inicializando
         print "Inicializando."
         4.times do |i|
